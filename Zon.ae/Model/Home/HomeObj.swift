@@ -12,9 +12,9 @@ struct HomeObj : Codable {
     var categories : [Categorydata]?
     var recent_orders : [OrderData]?
     var labels : LabelObj?
-
+    
     enum CodingKeys: String, CodingKey {
-
+        
         case slides = "slides"
         case categories = "categories"
         case recent_orders = "recent_orders"
@@ -23,7 +23,7 @@ struct HomeObj : Codable {
     }
     
     init(){ }
-
+    
     static func initFrom(json:[String:Any]) -> HomeObj{
         
         var obj = HomeObj()
@@ -38,8 +38,8 @@ struct HomeObj : Codable {
         if let categoriesArr = json[CodingKeys.categories.rawValue] as? [[String:Any]]{
             obj.categories?.removeAll()
             for singleCategory in categoriesArr {
-//                let category = Categorydata.initFrom(json: singleCategory)
-//                obj.categories?.append(category)
+                //                let category = Categorydata.initFrom(json: singleCategory)
+                //                obj.categories?.append(category)
             }
         }
         
@@ -57,6 +57,6 @@ struct HomeObj : Codable {
         
         return obj
     }
-
+    
 }
 
