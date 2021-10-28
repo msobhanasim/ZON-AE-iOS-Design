@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0E0F703CD55592A1E655A4A6 /* libPods-Zon.ae.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F12C5A7FE12CF065B6701E /* libPods-Zon.ae.a */; };
 		B272EBD1272B3A6B00797995 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B272EBD0272B3A6B00797995 /* DataFetcher.swift */; };
+		B272EBDB272B3FD100797995 /* Categorydata.swift in Sources */ = {isa = PBXBuildFile; fileRef = B272EBD9272B3FD100797995 /* Categorydata.swift */; };
+		B272EBDC272B3FD100797995 /* CategoryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B272EBDA272B3FD100797995 /* CategoryInfo.swift */; };
 		FA4335F826F611F400473E68 /* CategoriesColViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4335F626F611F400473E68 /* CategoriesColViewCell.swift */; };
 		FA4335F926F611F400473E68 /* CategoriesColViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4335F726F611F400473E68 /* CategoriesColViewCell.xib */; };
 		FA4335FE26F6124D00473E68 /* RecentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4335FC26F6124D00473E68 /* RecentTableViewCell.swift */; };
@@ -238,8 +240,6 @@
 		FAAE90CC2708DD9800600B3B /* Quotation_images.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE908D2708DD9700600B3B /* Quotation_images.swift */; };
 		FAAE90CD2708DD9800600B3B /* Arr_product_detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE908E2708DD9700600B3B /* Arr_product_detail.swift */; };
 		FAAE90CF2708DD9800600B3B /* CroppedImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE90902708DD9800600B3B /* CroppedImageData.swift */; };
-		FAAE90D32708DE2500600B3B /* Categorydata.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE90D12708DE2500600B3B /* Categorydata.swift */; };
-		FAAE90D42708DE2500600B3B /* CategoryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE90D22708DE2500600B3B /* CategoryInfo.swift */; };
 		FAB423252718A6DD00D2483C /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB423192718A6D900D2483C /* Roboto-MediumItalic.ttf */; };
 		FAB423262718A6DD00D2483C /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB4231A2718A6D900D2483C /* Roboto-BoldItalic.ttf */; };
 		FAB423272718A6DD00D2483C /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB4231B2718A6DA00D2483C /* Roboto-ThinItalic.ttf */; };
@@ -308,6 +308,8 @@
 		77F12C5A7FE12CF065B6701E /* libPods-Zon.ae.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Zon.ae.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4895DCD2B5A01D49AC677E /* Pods-Zon.ae.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zon.ae.debug.xcconfig"; path = "Target Support Files/Pods-Zon.ae/Pods-Zon.ae.debug.xcconfig"; sourceTree = "<group>"; };
 		B272EBD0272B3A6B00797995 /* DataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		B272EBD9272B3FD100797995 /* Categorydata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categorydata.swift; sourceTree = "<group>"; };
+		B272EBDA272B3FD100797995 /* CategoryInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryInfo.swift; sourceTree = "<group>"; };
 		FA4335F626F611F400473E68 /* CategoriesColViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesColViewCell.swift; sourceTree = "<group>"; };
 		FA4335F726F611F400473E68 /* CategoriesColViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesColViewCell.xib; sourceTree = "<group>"; };
 		FA4335FC26F6124D00473E68 /* RecentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTableViewCell.swift; sourceTree = "<group>"; };
@@ -538,8 +540,6 @@
 		FAAE908D2708DD9700600B3B /* Quotation_images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quotation_images.swift; sourceTree = "<group>"; };
 		FAAE908E2708DD9700600B3B /* Arr_product_detail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arr_product_detail.swift; sourceTree = "<group>"; };
 		FAAE90902708DD9800600B3B /* CroppedImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CroppedImageData.swift; sourceTree = "<group>"; };
-		FAAE90D12708DE2500600B3B /* Categorydata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categorydata.swift; sourceTree = "<group>"; };
-		FAAE90D22708DE2500600B3B /* CategoryInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryInfo.swift; sourceTree = "<group>"; };
 		FAB423192718A6D900D2483C /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
 		FAB4231A2718A6D900D2483C /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		FAB4231B2718A6DA00D2483C /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
@@ -657,6 +657,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B272EBD8272B3FD100797995 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B272EBD9272B3FD100797995 /* Categorydata.swift */,
+				B272EBDA272B3FD100797995 /* CategoryInfo.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		FA2B37B826F86838001357DA /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -689,8 +698,8 @@
 				FAAE904B2708DD9300600B3B /* Area */,
 				FAAE907F2708DD9700600B3B /* Address */,
 				FAAE906B2708DD9600600B3B /* Count */,
-				FAAE90D02708DE2500600B3B /* Category */,
 				FAAE90522708DD9400600B3B /* Countries */,
+				B272EBD8272B3FD100797995 /* Category */,
 				FAAE904F2708DD9400600B3B /* Faq */,
 				FAAE90842708DD9700600B3B /* ForceUpdate */,
 				FAAE90682708DD9500600B3B /* GetProfile */,
@@ -1610,16 +1619,6 @@
 			path = OffersDetails;
 			sourceTree = "<group>";
 		};
-		FAAE90D02708DE2500600B3B /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				FAAE90D12708DE2500600B3B /* Categorydata.swift */,
-				FAAE90D22708DE2500600B3B /* CategoryInfo.swift */,
-			);
-			name = Category;
-			path = "../../../zon-legacycode-revamp/ZON/Network/ResponseObject /Category";
-			sourceTree = "<group>";
-		};
 		FAB423182718A6B500D2483C /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -2158,7 +2157,6 @@
 				FAAE8ED42708D2FC00600B3B /* APIRoutes.swift in Sources */,
 				FAAE90152708DA8500600B3B /* SPInstagram.swift in Sources */,
 				FAAE8FCE2708DA8500600B3B /* SPBlurView.swift in Sources */,
-				FAAE90D32708DE2500600B3B /* Categorydata.swift in Sources */,
 				FAAE8FCB2708DA8500600B3B /* SPGradientView.swift in Sources */,
 				FAAE90AA2708DD9800600B3B /* OfferDetailIArray.swift in Sources */,
 				FAAE901E2708DA8500600B3B /* SPDevice.swift in Sources */,
@@ -2170,6 +2168,7 @@
 				FAAE8FD42708DA8500600B3B /* SPSocialIconView.swift in Sources */,
 				FAAE8FB02708DA8500600B3B /* SPFormTextInputTableViewCell.swift in Sources */,
 				FAFD6EAE26F5F6210077CAF9 /* ImageExtension.swift in Sources */,
+				B272EBDB272B3FD100797995 /* Categorydata.swift in Sources */,
 				FAAE8ED72708D4F200600B3B /* DataManger.swift in Sources */,
 				FAAE90032708DA8500600B3B /* SPNativeColors.swift in Sources */,
 				FAAE8FC32708DA8500600B3B /* SPImageView.swift in Sources */,
@@ -2212,7 +2211,6 @@
 				FAAE902D2708DA8600600B3B /* SPStorkPresentingAnimationController.swift in Sources */,
 				FAAE90272708DA8600600B3B /* SPStorkHaptic.swift in Sources */,
 				FADE80F927064D8F0026F35C /* GQTPointQuadTreeChild.m in Sources */,
-				FAAE90D42708DE2500600B3B /* CategoryInfo.swift in Sources */,
 				FAAE90212708DA8600600B3B /* SPShare.swift in Sources */,
 				FADE80F527064D8F0026F35C /* GMUDefaultClusterRenderer.m in Sources */,
 				FAAE90022708DA8500600B3B /* SPAppLaunch.swift in Sources */,
@@ -2234,6 +2232,7 @@
 				FAAE90CD2708DD9800600B3B /* Arr_product_detail.swift in Sources */,
 				FAAE90AC2708DD9800600B3B /* OrderAddress.swift in Sources */,
 				FAAE8FEF2708DA8500600B3B /* SPUserDefaultsExtenshion.swift in Sources */,
+				B272EBDC272B3FD100797995 /* CategoryInfo.swift in Sources */,
 				FAFD6EB626F5F6210077CAF9 /* UICollectionView+Extension.swift in Sources */,
 				FAAE8FE12708DA8500600B3B /* SPCollectionView.swift in Sources */,
 				FAAE90012708DA8500600B3B /* SPAppBadge.swift in Sources */,
