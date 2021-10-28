@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E0F703CD55592A1E655A4A6 /* libPods-Zon.ae.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F12C5A7FE12CF065B6701E /* libPods-Zon.ae.a */; };
+		B272EBD1272B3A6B00797995 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B272EBD0272B3A6B00797995 /* DataFetcher.swift */; };
 		FA4335F826F611F400473E68 /* CategoriesColViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4335F626F611F400473E68 /* CategoriesColViewCell.swift */; };
 		FA4335F926F611F400473E68 /* CategoriesColViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4335F726F611F400473E68 /* CategoriesColViewCell.xib */; };
 		FA4335FE26F6124D00473E68 /* RecentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4335FC26F6124D00473E68 /* RecentTableViewCell.swift */; };
@@ -306,6 +307,7 @@
 		124DA2F7FC4CE4F92C42725F /* Pods-Zon.ae.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zon.ae.release.xcconfig"; path = "Target Support Files/Pods-Zon.ae/Pods-Zon.ae.release.xcconfig"; sourceTree = "<group>"; };
 		77F12C5A7FE12CF065B6701E /* libPods-Zon.ae.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Zon.ae.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4895DCD2B5A01D49AC677E /* Pods-Zon.ae.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zon.ae.debug.xcconfig"; path = "Target Support Files/Pods-Zon.ae/Pods-Zon.ae.debug.xcconfig"; sourceTree = "<group>"; };
+		B272EBD0272B3A6B00797995 /* DataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
 		FA4335F626F611F400473E68 /* CategoriesColViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesColViewCell.swift; sourceTree = "<group>"; };
 		FA4335F726F611F400473E68 /* CategoriesColViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesColViewCell.xib; sourceTree = "<group>"; };
 		FA4335FC26F6124D00473E68 /* RecentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTableViewCell.swift; sourceTree = "<group>"; };
@@ -663,6 +665,7 @@
 				FAAE8ECD2708D2FC00600B3B /* APIResponse.swift */,
 				FAAE8ECE2708D2FC00600B3B /* APIRoutes.swift */,
 				FAAE8EC92708D2FA00600B3B /* HttpClient.swift */,
+				B272EBD0272B3A6B00797995 /* DataFetcher.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -2284,6 +2287,7 @@
 				FAAE8FAE2708DA8500600B3B /* SPFormTextFiledTableViewCell.swift in Sources */,
 				FAAE900A2708DA8500600B3B /* SPShadow.swift in Sources */,
 				FAAE90952708DD9800600B3B /* SearchImageData.swift in Sources */,
+				B272EBD1272B3A6B00797995 /* DataFetcher.swift in Sources */,
 				FAAE900B2708DA8500600B3B /* SPShadowDeep.swift in Sources */,
 				FAAE90082708DA8500600B3B /* SPMail.swift in Sources */,
 				FAAE8FAD2708DA8500600B3B /* SPFormLabelTableViewCell.swift in Sources */,

@@ -38,8 +38,8 @@ struct HomeObj : Codable {
         if let categoriesArr = json[CodingKeys.categories.rawValue] as? [[String:Any]]{
             obj.categories?.removeAll()
             for singleCategory in categoriesArr {
-                let category = Categorydata.initFrom(json: singleCategory)
-                obj.categories?.append(category)
+//                let category = Categorydata.initFrom(json: singleCategory)
+//                obj.categories?.append(category)
             }
         }
         

@@ -63,7 +63,7 @@ extension API{
         // MARK: Home APIs
         
         case .getHomeData:
-            return [:]
+            return [:] as AnyObject
             
         }
     }
